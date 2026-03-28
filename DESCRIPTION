@@ -1,0 +1,28 @@
+Package: mlesurv
+Type: Package
+Title: Bias Correction in the Parametric Proportional Hazards Model
+Version: 0.1.0
+Author: Alexander Begun
+Maintainer: Alexander Begun <alexander.begun@gmx.de>
+Description: Fits Parametric Proportional Hazards Model with Frailty. Possible baseline hazards: 
+             Exponential, Weibull, Gompertz. 
+             Possible frailty distributions: 
+             gamma, inverse gaussian. 
+             Calculates the Bias Correction for Maximum Likelihood Estimates.
+             Expectations are calculated using the Monte Carlo integration.
+License: GPL-2
+URL: https://github.com/AB5103/mlesurv
+BugReports: https://github.com/AB5103/mlesurv/issues
+Imports: 
+    MASS,
+    ucminf,
+    stats,
+    graphics,
+    xtable,
+    survival
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
